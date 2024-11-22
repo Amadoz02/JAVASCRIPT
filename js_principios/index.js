@@ -75,20 +75,142 @@
 
 
 
-//----------------------------------------------------------------------------------------------------------------------
+// //----------------------------------------------------------------------------------------------------------------------
 
 
-//funcion anonima
+// //funcion anonima
 
-(function (){
-    console.log("hola mundo");
-})()
-//funcion flecha gorda - arrow funcion
-const  flecha = (a, b) =>{
-    console.log(a+b);
-    return a+b;
-}
-const  flechas = (a, b) => (a>20)? a+b : a*b;//operdor terniario
-//si a es mator q 20 suma a +b si no entonces hace el a*b
-// console.log(respuestas);
-let respuestas = flecha(8, 6);
+// (function (){
+//     console.log("hola mundo");
+// })()
+// //funcion flecha gorda - arrow funcion
+// const  flecha = (a, b) =>{
+//     console.log(a+b);
+//     return a+b;
+// }
+// const  flechas = (a, b) => (a>20)? a+b : a*b;//operdor terniario
+// //si a es mator q 20 suma a +b si no entonces hace el a*b
+// // console.log(respuestas);
+// let respuestas = flecha(8, 6);
+// //---------------------------------------------------------------------------------------
+
+// //Crear un Array
+// let frutas = ["Manzana", "Banana"];
+
+// console.log(frutas.length);
+// // 2
+
+
+// //Acceder a un elemento de Array mediante su índice
+// let primero = frutas[0];
+// // Manzana
+
+// let ultimo = frutas[frutas.length - 1];
+// // Banana
+
+
+// //Recorrer un Array
+// frutas.forEach(function (elemento, indice, array) {
+//   console.log(elemento, indice);
+// });
+// // Manzana 0
+// // Banana 1
+
+
+// //Añadir un elemento al final de un Array
+// let nuevaLongitud = frutas.push("Naranja"); // Añade "Naranja" al final
+// // ["Manzana", "Banana", "Naranja"]
+
+
+// //Eliminar el último elemento de un Array
+// let ultimo2 = frutas.pop(); // Elimina "Naranja" del final
+// // ["Manzana", "Banana"]
+
+
+// //Añadir un elemento al principio de un Array
+// let nuevaLongitud2 = frutas.unshift("Fresa"); // Añade "Fresa" al inicio
+// // ["Fresa" ,"Manzana", "Banana"]
+
+
+// //Eliminar el primer elemento de un Array
+// let primero2 = frutas.shift(); // Elimina "Fresa" del inicio
+// // ["Manzana", "Banana"]
+
+
+// //Encontrar el índice de un elemento del Array
+// frutas.push("Fresa");
+// // ["Manzana", "Banana", "Fresa"]
+// let pos = frutas.indexOf("Banana"); // (pos) es la posición para abreviar
+
+// //---------------------------------------------------------------------------
+
+
+// const objeto = {};    // Esto es un objeto vacío
+// const player = {
+//     nombre: "Manz",
+//     life: 99,
+//     power: 10,
+// };
+
+// // Notación con puntos (preferida)
+// console.log(player.nombre);     // Muestra "Manz"
+// console.log(player.life);     // Muestra 99
+
+// player.nombre = "Helder";
+
+// // Notación con corchetes
+// console.log(player["nombre"]);  // Muestra "Helder"
+// console.log(player["life"]);  // Muestra 99
+
+// player.despedida = function(){return `chao se despide ${this.nombre}`;}
+// console.log(player.despedida()); // Muestra "chao se despide Helder"
+// a=10;
+// b=20;
+// if (typeof a === "number" && typeof b === "number"){
+//     console.log(a + b);
+//     if (b<1){
+
+//     }
+// }
+// let dia = parseInt(prompt("ingerese numero"));
+
+// switch(dia){
+// case 1:
+//     console.log ("hoy es lunes");
+//     break;
+// case 2:
+//     console.log ("hoy es martes");
+//     break;
+// case 3: 
+//     console.log ("hoy es miercoles");
+//     break;
+// case 4:
+//     console.log ("hoy es jueves");
+//     break;
+// case 5:
+//     console.log ("hoy es virnes");
+// case 6:
+//     console.log ("hoy es sabado");
+//     break;
+// case 7:
+//     console.log ("hoy es domingo");
+//     break;
+// default:
+//     console.log ("numero incorrecto");
+// break;
+// };
+// for (let n=1; true ;n++){
+//     let primo=0;
+//     let contador = 0;
+//     for(let i=1; i <= n; i++){
+//         if (n % i ===0){
+//             contador++;
+//         }
+//         if (contador==2){
+//             console.log (`el numero ${n} es primo`);
+//             primo+=1;
+//         }
+//     }
+//     if (primo == 10)break;
+    
+// };
